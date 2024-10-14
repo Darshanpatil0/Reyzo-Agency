@@ -88,12 +88,14 @@ const Hero = () => {
           className="hidden md:block h-[70%] w-[70%] absolute right-[91%] top-0"
           src="./img/hero_image_back.webp"
           alt=""
+          loading="lazy" 
         />
 
         <img
           className="hero-img  object-cover h-[520px] mr-12    w-full  -mt-4"
           src="./img/Heroimg1.webp"
           alt="Hero Image"
+          loading="lazy" 
         />
       </div>
     </div>

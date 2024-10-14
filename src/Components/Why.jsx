@@ -1,5 +1,4 @@
 import React from 'react';
-import { SiTicktick } from "react-icons/si";
 
 const Why = () => {
   return (
@@ -44,6 +43,7 @@ const Why = () => {
                   className='h-[40px] object-cover mr-4' 
                   src="/img/tick.png"  // Directly referencing the public folder
                   alt="Tick" 
+                  loading="lazy"  // Lazy load applied here as well
                 />
                 <h2 className='text-[1rem] font-bold'>{text}</h2>
               </div>
@@ -53,9 +53,9 @@ const Why = () => {
 
         <h3 className='pt-8 pb-4 text-[#88898A] text-md font-bold'> TO HELP YOUR</h3>
         <div className="flex gap-4">
-          <img className='h-[40px] w-[40px]' src="/img/youtube.png" alt="Nike" />
-          <img className='h-[40px] w-[40px]' src="/img/brand2.webp" alt="Adidas" />
-          <img className='h-[40px] w-[40px]' src="/img/brand3.webp" alt="Nike" />
+          <img className='h-[40px] w-[40px]' src="/img/youtube.png" alt="Nike" loading="lazy" />
+          <img className='h-[40px] w-[40px]' src="/img/brand2.webp" alt="Adidas" loading="lazy" />
+          <img className='h-[40px] w-[40px]' src="/img/brand3.webp" alt="Nike" loading="lazy" />
         </div>
       </div>
     </div>
