@@ -38,7 +38,7 @@ const Testimonial = () => {
           </div>
 
           {/* Right side: Testimonial Image */}
-          <div className="relative right-side left-16 mt-8 md:mt-0">
+          <div className="relative right-side  left-120 mt-8 md:mt-0">
             <div className="w-[13rem] divside  h-[15rem] md:w-[17rem] md:h-[20rem] z-10 border-2 border-orange-500"></div>
             <motion.img
               key={selected}
