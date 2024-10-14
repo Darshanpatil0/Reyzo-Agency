@@ -72,7 +72,7 @@ const PROGRAMS = () => {
       </div>
 
       {/* Program Cards */}
-      <div className="card p-4 max-w-full gap-12  flex mt-12  flex-wrap justify-center">
+      <div className="card card24 p-4 max-w-full gap-4  flex mt-12  flex-wrap justify-center">
         {data.map((item, index) => (
           <div
             key={index}

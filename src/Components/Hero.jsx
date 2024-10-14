@@ -59,7 +59,7 @@ const Hero = () => {
           transition={{ duration: 3, type: "spring", delay: 0.1 }}
           className="hart h-[100px] md:h-[140px] p-4 relative w-[100px] md:w-[120px] rounded-md bg-zinc-700 mx-auto"
         >
-          <img className="w-[8vh] flex items-center justify-center h-[8vh]" src="./img/applogo.png" alt="app" />
+          <img className="w-[8vh] flex items-center justify-center h-[8vh]" src="./img/applogo.webp" alt="app" />
           <p className="text-md mt-2 text-[#999998] font-bold">premiere </p>
           <p className=" text-xl font-bold">pro</p>
         </motion.div>
@@ -86,13 +86,13 @@ const Hero = () => {
           whileInView={{ right: "18rem" }}
           transition={{ duration: 3, type: "spring", delay: 0.1 }}
           className="hidden md:block h-[70%] w-[70%] absolute right-[91%] top-0"
-          src="./img/hero_image_back.png"
+          src="./img/hero_image_back.webp"
           alt=""
         />
 
         <img
           className="hero-img  object-cover h-[520px] mr-12    w-full  -mt-4"
-          src="./img/Heroimg1.png"
+          src="./img/Heroimg1.webp"
           alt="Hero Image"
         />
       </div>

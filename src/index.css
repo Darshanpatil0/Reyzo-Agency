@@ -262,6 +262,11 @@
 
 
 @media screen and (max-width: 640px) {
+
+  .card24{
+    gap: 3rem;
+  }
+
     .mainheding {
       font-size: 2rem;
       text-align: center;
@@ -678,3 +683,4 @@
           transform: rotate(360deg);
       }
   }
+

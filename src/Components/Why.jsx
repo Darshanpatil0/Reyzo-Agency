@@ -8,22 +8,22 @@ const Why = () => {
       <div className="left-r">
         {/* Lazy loading using the loading attribute */}
         <img 
-          src="/img/image1.jpg"  // Directly referencing the public folder
+          src="/img/image1 (1).webp"  // Directly referencing the public folder
           alt="Image 1" 
           loading="lazy" 
         />
         <img 
-          src="/img/image2.jpg" 
+          src="/img/image2 (1).webp" 
           alt="Image 2" 
           loading="lazy" 
         />
         <img 
-          src="/img/image3.jpg" 
+          src="/img/image3 (1).webp" 
           alt="Image 3" 
           loading="lazy" 
         />
         <img 
-          src="/img/image4.jpg" 
+          src="/img/image4 (1).webp" 
           alt="Image 4" 
           loading="lazy" 
         />
@@ -51,11 +51,11 @@ const Why = () => {
           </div>
         </div>
 
-        <h3 className='pt-8 pb-4 text-[#88898A] text-md font-bold'>OUR PARTNERS</h3>
+        <h3 className='pt-8 pb-4 text-[#88898A] text-md font-bold'> TO HELP YOUR</h3>
         <div className="flex gap-4">
           <img className='h-[40px] w-[40px]' src="/img/youtube.png" alt="Nike" />
-          <img className='h-[40px] w-[40px]' src="/img/brand2.png" alt="Adidas" />
-          <img className='h-[40px] w-[40px]' src="/img/brand3.png" alt="Nike" />
+          <img className='h-[40px] w-[40px]' src="/img/brand2.webp" alt="Adidas" />
+          <img className='h-[40px] w-[40px]' src="/img/brand3.webp" alt="Nike" />
         </div>
       </div>
     </div>
